@@ -65,7 +65,7 @@ This project follows a structured Git branching strategy:
 
 ### 🔹 Branches:
 
-- **`main`** → Production-ready branch.
+- **`master`** → Production-ready branch.
 - **`dev`** → Active development branch.
 - **`feature/{feature-name}`** → New features.
 - **`bugfix/{bug-name}`** → Fixing identified bugs.
@@ -93,9 +93,9 @@ This project follows a structured Git branching strategy:
    ```
 4. **Release to Production:**
    ```sh
-   git checkout main
+   git checkout master
    git merge release/{version}
-   git push origin main
+   git push origin master
    ```
 
 ## 🛠️ Running Tests
