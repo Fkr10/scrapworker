@@ -135,35 +135,35 @@ export const statsData = [
 
 export const testimonials = [
   {
-    imgSrc: "assets/img/testimonials/testimonials-1.jpg",
+    imgSrc: "/img/testimonials/testimonials-1.jpg",
     name: "Rajesh Kumar",
     role: "Business Owner",
     stars: 5,
     text: "I was impressed with how quickly and efficiently the scrap pickup service worked. The team was professional and ensured everything was taken care of with minimal effort from my side. Highly recommend!",
   },
   {
-    imgSrc: "assets/img/testimonials/testimonials-2.jpg",
+    imgSrc: "/img/testimonials/testimonials-2.jpg",
     name: "Sunita Verma",
     role: "Homeowner",
     stars: 5,
     text: "I’ve been using their scrap pickup services for a while now, and it’s always been a smooth process. The team arrives on time, and I love the fact that they recycle responsibly.",
   },
   {
-    imgSrc: "assets/img/testimonials/testimonials-3.jpg",
+    imgSrc: "/img/testimonials/testimonials-3.jpg",
     name: "Arvind Patel",
     role: "Retailer",
     stars: 5,
     text: "Their scrap collection service was quick and efficient. I was able to clear out my warehouse without any hassle. The best part is they handle everything professionally!",
   },
   {
-    imgSrc: "assets/img/testimonials/testimonials-4.jpg",
+    imgSrc: "/img/testimonials/testimonials-4.jpg",
     name: "Meera Singh",
     role: "Property Owner",
     stars: 5,
     text: "This service is exactly what I needed! They made the process of disposing of my old scrap materials incredibly easy. The pickup was quick, and I didn’t have to worry about anything.",
   },
   {
-    imgSrc: "assets/img/testimonials/testimonials-5.jpg",
+    imgSrc: "/img/testimonials/testimonials-5.jpg",
     name: "Vikram Joshi",
     role: "Entrepreneur",
     stars: 5,

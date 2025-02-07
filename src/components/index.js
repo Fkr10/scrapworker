@@ -1,5 +1,12 @@
 export { default as Header } from "./Header";
 export { default as Footer } from "./Footer";
+export { default as ServicesSection } from "./CardGroup";
 export { default as Preloader } from "./Preloader";
-export { default as HeroSection } from "./HeroSection";
-export { default as Stats } from "./Stats";
+export { default as HeroSection } from "./Sections/HeroSection";
+export { default as AboutUsSection } from "./Sections/AboutSection";
+export { default as Stats } from "./Sections/Stats";
+export { default as Faq } from "./Sections/FaqSection";
+export { default as Testimonal } from "./Sections/Testimonal";
+export { default as Gallery } from "./Sections/Gallery";
+export { default as AppointmentForm } from "./Forms/AppointmentForm";
+export { default as ContactUs } from "./Forms/ContactUs";

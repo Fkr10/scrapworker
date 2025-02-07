@@ -26,7 +26,6 @@ export const metadata = {
     "Green Living",
   ],
   authors: [{ name: "ScrapWorker Team" }],
-  themeColor: "#50A755",
   openGraph: {
     title: "ScrapWorker - Turn Scrap Into Cash",
     description:
