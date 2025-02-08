@@ -1,0 +1,149 @@
+:root {
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI",
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --primary-color: #2e7d32;
+  --secondary-color: #50a755;
+  --background-color: #f7f7f7;
+}
+
+/* 404 Page Styles */
+.notfound-page {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.notfound-page .overlay {
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  /* padding: 40px; */
+  border-radius: 15px;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+  max-width: 700px;
+  width: 100%;
+  z-index: 1;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.notfound-page .heading {
+  font-family: var(--heading-font);
+  font-size: 3rem; /* Reduced from 4rem */
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notfound-page .message {
+  font-family: var(--default-font);
+  font-size: 1.2rem; /* Reduced from 1.4rem */
+  font-weight: 400;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.notfound-page .scrap-message {
+  font-family: var(--heading-font);
+  font-size: 1.4rem; /* Reduced from 1.6rem */
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.notfound-page .sell-scrap-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin-top: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.notfound-page .sell-scrap-form h2 {
+  font-family: var(--heading-font);
+  font-size: 1rem; /* Reduced from 2rem */
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.notfound-page .form-control {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem; /* Reduced from 1.2rem */
+  font-family: var(--default-font);
+  transition: border-color 0.3s ease;
+}
+
+.notfound-page .form-control:focus {
+  border-color: var(--primary-color);
+}
+
+.notfound-page .btn-submit {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem; /* Reduced from 1.2rem */
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+.notfound-page .contact-info {
+  margin-top: 40px;
+  font-size: 1rem; /* Reduced from 1.1rem */
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.notfound-page .contact-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.notfound-page .contact-link:hover {
+  text-decoration: underline;
+}
+/* Additional style for the help message */
+.notfound-page .help-message {
+  font-family: var(--default-font);
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: 500;
+  color: #333;
+  margin-top: 20px; /* Added margin to separate from form */
+  text-align: center;
+}
+
+.notfound-page .help-message strong {
+  color: var(--primary-color); /* Highlight the phone number */
+}
+
+/* Keyframe animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
