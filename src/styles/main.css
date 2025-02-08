@@ -1641,16 +1641,24 @@ section,
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid var(--background-color);
-  border-bottom: 3px solid var(--background-color);
+  border-radius: 8px; /* Soft edges */
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery .gallery-item:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
 }
 
 .gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 .gallery .gallery-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /*--------------------------------------------------------------
