@@ -1,6 +1,5 @@
 export const heroMetalScrapProps = {
-  backgroundImage:
-    "assets/img/scrap_metal/scrap_metal_scrapworker_hero_image.webp",
+  backgroundImage: "/img/scrap_metal/scrap_metal_scrapworker_hero_image.webp",
   welcomeText: "Earn more and recycle smarter with",
   mainTitle: "SCRAPWORKER - Your Metal Scrap Experts",
   whyChooseTitle: "Why Scrapworker for Scrap Metal Recycling?",

@@ -4,7 +4,7 @@ export async function GET() {
   const baseUrl = "https://www.scrapworker.com";
 
   // Define your static pages
-  const staticPages = ["/", "/scrap-metal", "/scrap-plastic", "/scrap-paper"];
+  const staticPages = ["/", "/scrap-metal", "/scrap-plastic"];
 
   // Generate sitemap entries
   const pages = staticPages
